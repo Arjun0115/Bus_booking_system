@@ -140,9 +140,9 @@ class user_log_info{
 }
 
 class connect_paramiter{
-    public static final String url = "jdbc:mysql://localhost:3306/bus_project" ;
+    public static final String url = "your jdbc link" ;
     public static final String name = "root" ;
-    public static final String password = "k664fepx@123" ;
+    public static final String password = "" ;
 
     public Connection connect_database(){
         Connection conn = null ;
